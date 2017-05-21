@@ -1,3 +1,7 @@
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
 # Includes
 source ~/.git-completion.bash
 source ~/.functions

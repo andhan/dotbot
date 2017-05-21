@@ -1,0 +1,3 @@
+
+alias ll="ls -l"
+alias ideadiff='/Applications/IntelliJ IDEA 14.app/Contents/MacOS/idea diff'

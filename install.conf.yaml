@@ -10,6 +10,11 @@
     ~/.vim: vim
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
+    ~/.git-completion.bash: git-completion.bash
+    ~/.functions: functions
+    ~/.alias: alias
+    ~/.env: env
+    ~/.bash_profile: bash_profile
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

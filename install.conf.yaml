@@ -11,6 +11,7 @@
     ~/.vimrc: vimrc
     ~/.gitconfig: gitconfig
     ~/.git-completion.bash: git-completion.bash
+    ~/.tmux.completion.bash: tmux.completion.bash
     ~/.functions: functions
     ~/.alias: alias
     ~/.env: env

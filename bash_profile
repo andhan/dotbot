@@ -4,6 +4,7 @@ fi
 
 # Includes
 source ~/.git-completion.bash
+source ~/.tmux.completion.bash
 source ~/.functions
 
 source ~/.alias

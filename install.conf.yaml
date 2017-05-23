@@ -15,6 +15,7 @@
     ~/.alias: alias
     ~/.env: env
     ~/.bash_profile: bash_profile
+    ~/bin/nextgen-tmux.sh: bin/nextgen-tmux.sh
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

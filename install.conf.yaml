@@ -9,6 +9,7 @@
     ~/.tmux.conf: tmux.conf
     ~/.vim: vim
     ~/.vimrc: vimrc
+    ~/.ideavimrc: ideavimrc
     ~/.gitconfig: gitconfig
     ~/.git-completion.bash: git-completion.bash
     ~/.tmux.completion.bash: tmux.completion.bash

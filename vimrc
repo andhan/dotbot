@@ -15,5 +15,6 @@ call plug#begin('~/.vim-plug/plugged')
 
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'tpope/vim-fugitive'
+Plug 'pearofducks/ansible-vim'
 
 call plug#end()

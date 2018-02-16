@@ -71,6 +71,21 @@ then
 	tmux send-keys -t $SESSION_NAME 'cd '$NEXTGEN_HOME'/nextgen-doc' C-m
 	tmux send-keys -t $SESSION_NAME 'll' C-m
 
+	#monitoring window with promts for the runtime deployment environment
+	tmux new-window -n monitor -t $SESSION_NAME
+	tmux select-window -t $SESSION_NAME:6
+	tmux send-keys -t $SESSION_NAME 'cd '$NEXTGEN_HOME'/nextgen-pu/nextgen-pu-deploy' C-m
+	tmux send-keys -t $SESSION_NAME 'll' C-m
+	tmux split-window -h -t $SESSION_NAME:6
+	tmux send-keys -t $SESSION_NAME 'cd '$NEXTGEN_HOME'/nextgen-pu/nextgen-pu-deploy' C-m
+	tmux send-keys -t $SESSION_NAME 'll' C-m
+	tmux split-window -h -t $SESSION_NAME:6.1
+	tmux send-keys -t $SESSION_NAME 'cd '$NEXTGEN_HOME'/nextgen-pu/nextgen-pu-deploy' C-m
+	tmux send-keys -t $SESSION_NAME 'll' C-m
+	tmux split-window -h -t $SESSION_NAME:6.2
+	tmux send-keys -t $SESSION_NAME 'cd '$NEXTGEN_HOME'/nextgen-pu/nextgen-pu-deploy' C-m
+	tmux send-keys -t $SESSION_NAME 'll' C-m
+	tmux select-layout -t $SESSION_NAME:6 event-vertical
 
 	tmux select-window -t $SESSION_NAME:1
 fi	

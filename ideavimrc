@@ -1,3 +1,14 @@
-set ignorecase
-set relativenumber
-set showmode
+"include standard vimrc
+source ~/.vimrc
+
+"ideavim specific settings
+set idearefactormode=keep
+
+"set ignorecase
+"set relativenumber
+"set showmode
+"set NERDTree
+"set surround
+"set commentary
+"set vim-paragraph-motion
+"set textobject-indent

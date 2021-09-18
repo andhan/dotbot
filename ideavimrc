@@ -1,12 +1,11 @@
 "include standard vimrc
 source ~/.vimrc
-
 "ideavim specific settings
 set idearefactormode=keep
-
+set showmode
+nnoremap <leader>gd <Action>(GotoDeclaration)
 "set ignorecase
 "set relativenumber
-"set showmode
 "set NERDTree
 "set surround
 "set commentary

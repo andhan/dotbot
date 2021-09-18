@@ -1,20 +1,25 @@
-"skip vi compatibility
-set nocompatible
+"###############
+"# Misc settings
+"###############
+set nocompatible| "skip vi compatibility
+"############
+"# Appearance
+"############
+set relativenumber
+syntax on
+filetype plugin on
+"###################
+"# improve searching
+"###################
 set ignorecase
 set incsearch
 set hlsearch
-set relativenumber
-
-"Search down into subfolders
-"Privides tab-completion for all file-related tasks
-set path+=**
-
-"Display all matching files when we tab complete
-set wildmenu
-
+set path+=**| "Search down into subfolders
+set wildmenu| "Display all matching files when we tab complete
 "########### key mappings ###########
 nnoremap <leader>nt :NERDTree<CR>
-
+nnoremap <SPACE> <Nop>
+let mapleader=" "
 
 
 " Vim plugins section. These are managed by vim-plug
@@ -30,6 +35,7 @@ Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
 Plug 'dbakker/vim-paragraph-motion'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'vim-scripts/ctrlp.vim'
 
 call plug#end()
 

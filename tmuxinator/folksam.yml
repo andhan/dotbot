@@ -1,0 +1,34 @@
+# ~/.tmuxinator/folksam.yml
+
+name: folksam
+root: ~/
+
+windows:
+  - ci:
+      layout: main-horizontal
+      panes:
+        - gsm1:
+        - gsm2:
+        - gsm3:
+        - goldenhost:
+  - stst:
+      layout: main-horizontal
+      panes:
+        - gsm1:
+        - gsm2:
+        - gsm3:
+        - goldenhost:
+  - atst:
+      layout: main-horizontal
+      panes:
+        - gsm1:
+        - gsm2:
+        - gsm3:
+        - goldenhost:
+  - prod:
+      layout: main-horizontal
+      panes:
+        - gsm1:
+        - gsm2:
+        - gsm3:
+        - goldenhost:
